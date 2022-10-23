@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #223;
+  background-color: #ecf2f8;
   padding: 2rem 5rem;
   width: 100vw;
   height: 100vh;
@@ -35,15 +35,18 @@ body {
 .container .card {
   width: 400px;
   height: 230px;
-  background-color: brown;
+  background-color: #7541c8;
+  background-color: #48556a;
+  background-color: #19212e;
+  background-color: white;
+  background-color: #cfcfcf;
   border-radius: 1.5rem;
-  border: 3px saddlebrown solid;
 }
 
 .container .card.selected {
   width: 100%;
   height: 600px;
   border: none;
-  border-radius: 0;
+  border-radius: .5rem;
 }
 /*# sourceMappingURL=style.css.map */
