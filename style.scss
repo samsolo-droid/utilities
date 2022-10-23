@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #223;
+    background-color: #ECF2F8;
     padding: 2rem 5rem;
     width: 100vw;
     height: 100vh;
@@ -23,9 +23,8 @@ body{
     .card{
         width: 400px;
         height: 230px;
-        background-color: brown;
+        background-color: #19212E;
         border-radius: 1.5rem;
-        border: 3px saddlebrown solid;
 
         &.selected {
             width: 100%;
