@@ -28,6 +28,7 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    transition: all .8s ease-in;
 }
 
 /* Remove default margin */
@@ -132,6 +133,7 @@ h3 {
 .grid-span {
     // grid-row: 1 / 2;
     grid-column: span 3;
+    transition: grid-column 1s ease;
 }
 .card {
     background-color: #103f8b;
@@ -146,6 +148,7 @@ h3 {
 
         .grid-span {
             grid-row: span 3;
+            
         }
 
         display: grid;

@@ -27,6 +27,8 @@
 *::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  -webkit-transition: all .8s ease-in;
+  transition: all .8s ease-in;
 }
 
 /* Remove default margin */
@@ -128,6 +130,9 @@ h3 {
 
 .grid-span {
   grid-column: span 3;
+  -webkit-transition: grid-column 1s ease;
+  transition: grid-column 1s ease;
+  transition: grid-column 1s ease, -ms-grid-column 1s ease;
 }
 
 .card {
