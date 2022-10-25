@@ -20,7 +20,7 @@
   --more-list-shadow: rgba(209, 209, 209, 0.4);
   --button-bg: #1f1c24;
   --search-area-bg: #fff;
-  --star: #1ff1c2e;
+  --star: #ffd92c;
   --message-btn: #fff;
 }
 
@@ -43,6 +43,19 @@
   --more-list-bg-hover:  rgba(195, 207, 244, 0.1);
   --more-list-shadow: rgba(195, 207, 244, 0.1);
   --message-btn: rgba(195, 207, 244, 0.1);
+}
+
+::-webkit-scrollbar {
+  width: .5rem;
+  //   border-radius: 5rem;
+}
+// html::-webkit-scrollbar-track {
+//   background: rgb(70, 145, 243);
+//   border-radius: 5rem;
+// }
+::-webkit-scrollbar-thumb {
+  background: var(--link-color-hover);
+  border-radius: 5rem;
 }
 
 html, body {
