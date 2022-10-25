@@ -53,6 +53,12 @@ body {
   height: 600px;
   border: none;
   border-radius: .5rem;
+  color: #e62828;
+  font-size: 1.5rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .container .card span {

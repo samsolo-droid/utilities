@@ -7,8 +7,13 @@ cards.forEach(card => {
     })
 })
 links.forEach(link => {
-    link.addEventListener("click", (event) => {
+    link.addEventListener("click", async (event) => {
         event.preventDefault()
-        setTimeout(() => { window.location = link.getAttribute("href") }, 5000);
+        temp = 5
+        link.parentNode.parentNode.append(`\nVous allez etre redirige dans ${
+            temp
+        }
+            seconde`)
+        await setTimeout(() => { window.location = link.getAttribute("href") }, 5000);
     })
 })
