@@ -21,13 +21,16 @@ body{
     gap: 25px;
 
     .card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 400px;
         height: 230px;
-        background-color: hsl(263, 55%, 52%);
-        background-color: hsl(217, 19%, 35%);
+        // background-color: hsl(263, 55%, 52%);
+        // background-color: hsl(217, 19%, 35%);
         background-color: hsl(219, 29%, 14%);
-        background-color: hsl(0, 0%, 100%);
-        background-color: hsl(0, 0%, 81%);
+        // background-color: hsl(0, 0%, 100%);
+        // background-color: hsl(0, 0%, 81%);
         border-radius: 1.5rem;
 
         &.selected {
@@ -35,6 +38,25 @@ body{
             height: 600px;
             border: none;
             border-radius: .5rem;
+        }
+
+        span {
+            margin: .5rem 3rem;
+            font-size: 2.5rem;
+            color: hsl(0, 0%, 81%);
+
+            a, a:visited, a:active{
+                list-style: none;
+                display: contents;
+                color: inherit;
+
+            }
+            &:hover{
+                cursor: pointer;
+                border-radius: .75rem;
+                padding: .5rem 1rem;
+                background-color: hsl(221, 18%, 38%);
+            }
         }
     }
 }

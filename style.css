@@ -33,13 +33,18 @@ body {
 }
 
 .container .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 400px;
   height: 230px;
-  background-color: #7541c8;
-  background-color: #48556a;
   background-color: #19212e;
-  background-color: white;
-  background-color: #cfcfcf;
   border-radius: 1.5rem;
 }
 
@@ -48,5 +53,24 @@ body {
   height: 600px;
   border: none;
   border-radius: .5rem;
+}
+
+.container .card span {
+  margin: .5rem 3rem;
+  font-size: 2.5rem;
+  color: #cfcfcf;
+}
+
+.container .card span a, .container .card span a:visited, .container .card span a:active {
+  list-style: none;
+  display: contents;
+  color: inherit;
+}
+
+.container .card span:hover {
+  cursor: pointer;
+  border-radius: .75rem;
+  padding: .5rem 1rem;
+  background-color: #4f5b72;
 }
 /*# sourceMappingURL=style.css.map */
