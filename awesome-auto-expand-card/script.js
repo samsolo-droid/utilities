@@ -7,10 +7,10 @@ cards.forEach(card => {
                 cards[i].classList.remove("grid-span");
             }
             // else {
-            //     cards[i].classList.add("grid-span")
-            // }
-        }
-
-        event.target.classList.add("grid-span")
+                //     cards[i].classList.add("grid-span")
+                // }
+            }
+            
+            event.target.classList.add("grid-span")
     })
 })

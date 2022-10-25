@@ -119,6 +119,7 @@ h3 {
 }
 
 .container {
+  position: relative;
   display: -ms-grid;
   display: grid;
   gap: 1.5rem;
@@ -130,9 +131,9 @@ h3 {
 
 .grid-span {
   grid-column: span 3;
-  -webkit-transition: grid-column 1s ease;
-  transition: grid-column 1s ease;
-  transition: grid-column 1s ease, -ms-grid-column 1s ease;
+  -webkit-transition: grid-column 2s;
+  transition: grid-column 2s;
+  transition: grid-column 2s, -ms-grid-column 2s;
 }
 
 .card {
@@ -155,6 +156,9 @@ h3 {
   }
   .container .grid-span {
     grid-row: span 3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
   }
 }
 /*# sourceMappingURL=style.css.map */

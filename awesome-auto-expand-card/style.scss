@@ -123,6 +123,7 @@ h3 {
 
 
 .container{
+    position: relative;
     display: grid;
     gap: 1.5rem;
     grid-template-rows: 1fr;
@@ -133,7 +134,7 @@ h3 {
 .grid-span {
     // grid-row: 1 / 2;
     grid-column: span 3;
-    transition: grid-column 1s ease;
+    transition: grid-column 2s;
 }
 .card {
     background-color: #103f8b;
@@ -148,6 +149,7 @@ h3 {
 
         .grid-span {
             grid-row: span 3;
+            grid-column: 1/2;
             
         }
 
